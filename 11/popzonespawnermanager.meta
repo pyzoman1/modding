@@ -14,7 +14,6 @@
       <Flocks100m2DensityMedium value="2.500000" />
       <Flocks100m2DensityHigh value="3.500000" />
       <Flocks100m2DensityVeryHigh value="5.900000" /> 
-      <NoSpawnFlags>PFF_WildMediumAndLargeAnimals</NoSpawnFlags>
       <NoSpawnAfterNumKills value="20" />
       <NoSpawnAfterNumSeconds value="240.00000" />
       <NoSpawnHowLongSeconds value="1.00000" />
