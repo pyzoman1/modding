@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CScavengerDispatchManager__Tunables">
+      <Name>CScavengerDispatchManager</Name>
+      <TimeBetweenAddingDispatches value="0.000100" />
+      <DistanceThresholdFromOtherDispatches value="1.20000" />
+      <NumberOfNearbyScavengersAllowed value="15" />
+      <DistanceThresholdNearbyDispatches value="0.500000" />
+      <DistanceThresholdToAdd value="200.000000" />
+      <DistanceThresholdToRemove value="300.000000" />
+      <DistanceThresholdFromTown value="15.000000" />
+      <MinimumAgeOfCorpse value="0" />
+      <MaxSpawnRangeScaleFactor value="1.500000" />
+      <ScavengerRemoveRangeMultiplier value="4.000000" />
+      <AerialScavengerMinHeightDelta value="2.000000" />
+      <AerialScavengerMaxHeightDelta value="6.000000" />
+      <AerialScavengerMinCircleRadius value="10.000000" />
+      <AerialScavengerMaxCircleRadius value="37.000000" />
+      <ActiveDispatchCorpseScanDelay value="0.10000" />
+      <CorpseFrictionOverride value="1000.000000" />
+    </Item>
+  </Tunables>
+</CTuningFile>

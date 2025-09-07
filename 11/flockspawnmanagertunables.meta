@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CFlockSpawnManager__Tunables">
+      <Name>CFlockSpawnManager</Name>
+      <DistFreeFromNearbyAnimals value="5.0000000" />
+      <DistFreeFromNearbyAnimalsSameSpecies value="0.000000" />
+      <DistFreeFromNearbyAnimalsForest value="2.000050" />
+      <DistFreeFromNearbyAnimalsSameSpeciesForest value="0.0000000" />
+      <DistFreeFromNearbyAnimalsScenario value="0.0000000" />
+      <DistFreeFromNearbyAnimalsSameSpeciesScenario value="0.000000" />
+      <DirSpreadDegrees value="49.000000" />
+      <SpawnRadiusSpreadFactor value="0.450000" />
+      <TimeFlockSleeping value="240000" />
+      <MpSpawnTurnMaxDistance value="75.0" />
+      <MpSpawnTurnDuration value="1.0" />
+      <MpSpawnTimeBetweenTurns value="0.1" />
+      <MaxAttemptsGatheringPoints value="99" />
+    </Item>
+  </Tunables>
+</CTuningFile>

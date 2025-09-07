@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CTaskThreatResponseAnimal__Tunables">
+      <Name>CTaskThreatResponseAnimal</Name>
+      <fBroadcastThreatRateSeconds value="6.000000" />
+      <fBroadCastThreatMaxTimeSeconds value="12.000000" />
+      <fDelayAfterFleeNotReactToOtherAnimalsFleeing value="15.000000" />
+      <fEvasionDistanceThreshold value="6.000000" />
+      <fEvasionTimeThreshold value="20.000000" />
+      <fEvasionTimeThresholdNPCAnimals value="8.000000" />
+      <uEvasionNoDamageTimeThresholdMS value="500" />
+      <fEvasionTargetSlowSpeedTimeThreshold value="2.000000" />
+      <fVictoryDelayThreshold value="1.000000" />
+      <HowlScenario>WORLD_ANIMAL_WOLF_HOWLING</HowlScenario>
+      <TimeToHowl value="28.000000" />
+      <fStragglerPlayerBoostThreshold value="10.000000" />
+      <fAlertedToFleeMinDelay value="0.000000" />
+      <fAlertedToFleeMaxDelay value="0.003000" />
+      <fTargetingSwitchDelay value="2.000000" />
+      <FormationOffsetWhenSeekingOwnersHelp x="1.000000" y="1.000000" />
+      <DistanceToSlowDownWhenSeekingOwner value="6.000000" />
+      <DistanceToStarTimerToStickAroundOwner value="20.000000" />
+      <DefaultTimeToStickToOwnerInSecs value="15.000000" />
+      <TimeToStickToOwnerWhenBeingDefendedInSecs value="20.000000" />
+    </Item>
+    <Item type="CTaskSquadFlock__Tunables">
+      <Name>CTaskSquadFlock</Name>
+      <fUnalertedStartTimeStill value="1.000000" />
+      <fUnalertedStartMinTimeFlocking value="4.500000" />
+      <fUnalertedStopFlockStrength value="0.120000" />
+    </Item>
+    <Item type="CTaskCombatAnimalCharge__Tunables">
+      <Name>CTaskCombatAnimalCharge</Name>
+      <fDistanceToSwitchToTackle value="5.000000" />
+      <fDistanceForTargetUpdate value="0.800000" />
+      <fMinDistanceToPedFortargetUpdate value="2.000000" />
+      <fTimeForEveryTargetUpdate value="0.400000" />
+      <fTurnToFaceTargetThreshold value="45.000000" />
+    </Item>
+    <Item type="CTaskEat__Tunables">
+      <Name>CTaskEat</Name>
+      <EatConfigs>
+        <Item type="CTaskEat__CEatConfig">
+          <PredatorModelName>A_C_Cougar_01</PredatorModelName>
+          <PreyModelName>A_C_DEER_01</PreyModelName>
+          <LootConfig>CONSUMABLE_ANIMAL_COUGAR_DEER</LootConfig>
+        </Item>
+        <Item type="CTaskEat__CEatConfig">
+          <PredatorModelName>A_C_Cougar_01</PredatorModelName>
+          <PreyModelName>A_C_Buck_01</PreyModelName>
+          <LootConfig>CONSUMABLE_ANIMAL_COUGAR_BUCK</LootConfig>
+        </Item>
+      </EatConfigs>
+      <ScenarioFallbackRadius value="1.250000" />
+      <ScenarioFallbackRadiusFish value="0.750000" />
+      <WaitRadius value="8.000000" />
+      <DefaultTimeToEat value="25.000000" />
+      <CloseAnimalRepositionThreshold value="1.000000" />
+      <TimeToEatAlphaMin value="35.000000" />
+      <TimeToEatAlphaMax value="60.000000" />
+      <TimeToEatBetaMin value="25.000000" />
+      <TimeToEatBetaMax value="40.000000" />
+      <TimeToEatOmegaMin value="15.000000" />
+      <TimeToEatOmegaMax value="25.000000" />
+      <DelayUntilOmegaEatsMin value="20.000000" />
+      <DelayUntilOmegaEatsMax value="30.000000" />
+      <MinTimeToFallbackSink value="12.000000" />
+      <MaxTimeToFallbackSink value="15.000000" />
+      <TimeUntilHungry value="10.000000" />
+      <BaitEatingDistance value="2.000000" />
+      <BaitObserveDistance value="10.000000" />
+      <BaitObserveMinTime value="3.000000" />
+      <BaitObserveMaxTime value="8.000000" />
+    </Item>
+    <Item type="CTaskUnalertedAnimalWander__Tunables">
+      <Name>CTaskUnalertedAnimalWander</Name>
+      <fWanderTargetRadius value="2.500000" />
+      <fWanderTargetRadiusForSmallAnimals value="0.800000" />
+      <fMaxSlopeDegrees value="30.000000" />
+      <fExtraNavmeshCheckDistance value="2.500000" />
+    </Item>
+    <Item type="CTaskHerdAnimals__Tunables">
+      <Name>CTaskHerdAnimals</Name>
+    </Item>
+    <Item type="CTaskCuriousAnimal__Tunables">
+      <Name>CTaskCuriousAnimal</Name>
+      <MinTimeBetweenCuriousAttractionsGlobal value="1440000" />
+      <MinTimeBetweenCuriousAttractionsPerSpecies value="4320000" />
+      <TimeToApproachBeforeMeandering value="3.000000" />
+      <TimeToMeander value="24.000000" />
+      <MinTimeToObserve value="10.000000" />
+      <MaxTimeToObserve value="20.000000" />
+      <CuriousDangerRadius value="9.000000" />
+      <StillTargetAttractionThreshold value="30.000000" />
+    </Item>
+    <Item type="CTaskUnalertedAnimal__Tunables">
+      <Name>CTaskUnalertedAnimal</Name>
+      <GetToTheSideOfTheRoadTuning>
+        <fSearchRadiusXYForPointValidation value="2.500000" />
+        <fSearchDistZForPointValidation value="1.000000" />
+        <fDefaultClearRadiusForPointValidation value="0.500000" />
+        <fOptionalMinimumRadiusForPointValidation value="0.000000" />
+        <iNumResultsForPointValidation value="1" />
+        <fResultsMinSpacingForPointValidation value="0.000000" />
+        <iTimeToReattemptToMoveToTheSideOfTheRoadInMs value="1000" />
+        <iTimeBetweenRoadNodeSearchesInMs value="6500" />
+        <AdditionalClearAreaTrainTracks value="2.000000" />
+      </GetToTheSideOfTheRoadTuning>
+      <fDefaultStateMinTime value="1.000000" />
+      <fDefaultStateMaxTime value="3.000000" />
+      <fMaxDistanceRepeatScannerSearch value="15.000000" />
+      <fGetOutOfAvoidanceVolumeInitialDelay value="5.000000" />
+      <uMaxTimeSinceLastGunshotToCreateAvoidanceVolume value="10000" />
+      <fMbrGetOutOfWater value="1.000000" />
+      <TakeOffForwardGoal value="10.000000" />
+      <TakeOffVerticalGoal value="10.000000" />
+      <fEarWanderMinTimeChange value="1.000000" />
+      <fEarWanderMaxTimeChange value="3.000000" />
+      <fStayInPlaceIfRiderThisClose value="3.500000" />
+      <fStayInPlaceIfRiderMovingTowardsMeDistance value="10.000000" />
+      <fStayInPlaceIfRiderMovingTowardsMeDegrees value="35.000000" />
+      <ChanceOfHappyAnimal value="0.100000" />
+      <ChanceOfSubmissiveAnimal value="0.100000" />
+      <MinTimeIgnoreAttractorsAfterPathFailed value="20000" />
+      <fMinMigrationStopDistance value="5.000000" />
+      <fMaxMigrationStopDistance value="10.000000" />
+      <BlockPlayerFaceThreshold value="5.000000" />
+      <fMinTimeFacingLookAtTarget value="2.000000" />
+      <PercentageToCentreOfRoadToMoveToTheSides value="0.750000" />
+      <PercentageFromCentreOfRoadToStop value="1.350000" />
+      <StopRadiusWhenMovingToSideOfRoad value="0.000000" />
+      <SpeedToMoveToTheSideOfTheRoad value="0.250000" />
+      <TimeInIdleStateToConsiderMovingToSideOfTheRoadInSecs value="3.500000" />
+      <AdditionalRoadDistanceTrainTracks value="4.000000" />
+      <MinTimeIgnoreGroupAfterPathFailed value="3000" />
+      <fStopFlockMigratingAfterTimeStill value="4.000000" />
+      <fDistanceFromHorseToAvoidGettingOutOfTheRoad value="5.000000" />
+      <fMinRequiredTimeInStateToGetOutOfTheWayWithOwnerCloseByInSecs value="30.000000" />
+      <NonHorseGoBackToOwnerDistance value="10.000000" />
+      <fFishNavMeshProbeDistance value="5.000000" />
+      <fFishNavMeshRayCheckRadius value="0.250000" />
+      <fFishMinDistFromObstruction value="1.000000" />
+      <FishLargeModelSet>ANIMALS_FISH_LARGE</FishLargeModelSet>
+      <fFishMinDepthLarge value="1.000000" />
+      <FishMediumModelSet>ANIMALS_FISH_MED</FishMediumModelSet>
+      <fFishMinDepthMedium value="0.500000" />
+      <fFishMinDepthSmall value="0.400000" />
+	  <fWalkToGroupPositionDistanceThreshold value="8.000000" />
+	  <fMaxTimeToStayOutsidePen value="10.000000" />
+	  <uMinTimeIgnorePenAfterPathFailed value="10000" />
+    </Item>
+    <Item type="CTaskUnalertedAnimalUseScenario__Tunables">
+      <Name>CTaskUnalertedAnimalUseScenario</Name>
+      <fDistanceInGroupArea value="30.000000" />
+      <fTargetRadiusGoToScenarioPosition value="1.500000" />
+      <RandomSpreadMax value="1.500000" />
+      <fCanMoveInScenarioDistance value="4.000000" />
+    </Item>
+    <Item type="CTaskFleeAnimal__Tunables">
+      <Name>CTaskFleeAnimal</Name>
+      <RearUpDelayMin value="3.000000" />
+      <RearUpDelayMax value="5.000000" />
+      <RearUpProbabilityClose value="0.800000" />
+      <RearUpProbabilityFar value="0.100000" />
+      <RearUpDistanceClose value="5.000000" />
+      <RearUpDistanceFar value="30.000000" />
+      <WildRearUpProbabilityPedClose value="0.050000" />
+      <WildRearUpDistancePedClose value="30.000000" />
+      <PathOutOfFlockingMinDuration value="10.000000" />
+      <DirectionChangeForwardOffset value="5.000000" />
+      <fStopFlockingAfterTimeStill value="28.000000" />
+      <FlightReactProjectDistance value="10.000000" />
+    </Item>
+    <Item type="CTaskCarrionBird__Tunables">
+      <Name>CTaskCarrionBird</Name>
+      <AdditionalBufferForCirclingStart value="4.500000" />
+      <MinTimeUntilLanding value="1.000000" />
+      <MaxTimeUntilLanding value="4.000000" />
+      <AdditionalTimeUntilCirclingBail value="50.000000" />
+      <MinCorpseLandJitter value="0.750000" />
+      <MaxCorpseLandJitter value="2.600000" />
+      <ChanceToLand value="0.800000" />
+      <MinSpeedOverride value="4.000000" />
+      <MaxSpeedOverride value="13.000000" />
+      <MinTimeToEat value="35.000000" />
+      <MaxTimeToEat value="65.000000" />
+      <ScenarioFallbackRadius value="1.000000" />
+      <SearchRadiusForObstructions value="2" />
+      <UseAmbientScannerToLand value="false" />
+    </Item>
+    <Item type="CTaskBark__Tunables">
+      <Name>CTaskBark</Name>
+      <HeadingStartFacingTolerance value="0.01000" />
+      <HeadingStopFacingTolerance value="0.0010" />
+      <BarkScenario>WORLD_ANIMAL_DOG_BARKING_UP</BarkScenario>
+    </Item>
+    <Item type="CTaskDogConfront__Tunables">
+      <Name>CTaskDogConfront</Name>
+      <IdealFollowThreatDistance value="3.000000" />
+      <RetreatDistance value="1.500000" />
+      <IdealFollowOwnerDistance value="1.500000" />
+      <StartFollowOwnerDistance value="20.000000" />
+      <MinDistToStopOwnerFollow value="10.000000" />
+      <ConfrontThreatDistance value="8.000000" />
+      <MinThreatDistanceToOwner value="20.000000" />
+    </Item>
+    <Item type="CTaskAlertedAnimal__Tunables">
+      <Name>CTaskAlertedAnimal</Name>
+      <fHeadingToleranceForWarningLocoDegrees value="40.000000" />
+      <fPctgLookatFromHeadingTolerance value="0.500000" />
+      <fMinTimeFacingHorse value="3.000000" />
+      <fMaxTimeFacingHorse value="4.000000" />
+      <fMinTimeFacingTargetForWarning value="3.600000" />
+      <fMaxTimeFacingTargetForWarning value="8.000000" />
+      <fMinTimeFacingTargetForFlocking value="9.000000" />
+      <fMaxTimeFacingTargetForFlocking value="15.000000" />
+      <fMinTimeFacingDeadBody value="2.000000" />
+      <fMaxTimeFacingDeadBody value="3.000000" />
+      <fMinTimeFlocking value="60.000000" />
+      <fMaxTimeFlocking value="100.000000" />
+      <fMinTimeInWarning value="2.200000" />
+      <fMaxTimeInWarning value="9.500000" />
+      <fMinTimeInThreaten value="32.000000" />
+      <fMaxTimeInThreaten value="65.000000" />
+      <fHeadingDiffForWarning value="10.000000" />
+      <fMinTimeBeforeInitialIdle value="0.100000" />
+      <fMaxTimeBeforeInitialIdle value="0.500000" />
+      <uWarningOutroTime value="3500" />
+      <uAlertedToThreatenRunDelay value="2000" />
+      <fTimeBeforeClearingAlerted value="1.000000" />
+      <fMinDistanceWalkAway value="4.000000" />
+    </Item>
+    <Item type="CTaskGrabCarcass__Tunables">
+      <Name>CTaskGrabCarcass</Name>
+      <DeepGrabWaterThreshold value="0.700000" />
+      <GrabConfigs>
+        <Item type="CTaskGrabCarcass__CGrabConfig">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionModelName">
+                <Entity>PrimaryEntity</Entity>
+                <ModelName>A_C_Alligator_01</ModelName>
+              </Item>
+              <Item type="CAIConditionSpecies">
+                <Ped>SecondaryEntity</Ped>
+                <SpeciesName>SPECIES_BIRD_HERON</SpeciesName>
+              </Item>
+            </Conditions>
+          </Condition>
+          <MinDepth value="0.250000" />
+          <MaxDepth value="1.100000" />
+          <ClipSet>amb_creatures_reptile@alligator_drag_carcass_deep</ClipSet>
+          <Clip>DRAG_CARCASS_DEEP_A</Clip>
+          <ApproachRadius value="4.000000" />
+          <IsWaterGrab value="true" />
+        </Item>
+        <Item type="CTaskGrabCarcass__CGrabConfig">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionModelName">
+                <Entity>PrimaryEntity</Entity>
+                <ModelName>A_C_Alligator_01</ModelName>
+              </Item>
+              <Item type="CAIConditionSpecies">
+                <Ped>SecondaryEntity</Ped>
+                <SpeciesName>SPECIES_BIRD_HERON</SpeciesName>
+              </Item>
+            </Conditions>
+          </Condition>
+          <MinDepth value="1.100000" />
+          <MaxDepth value="2.500000" />
+          <ClipSet>amb_creatures_reptile@alligator_drag_carcass_deep</ClipSet>
+          <Clip>DRAG_CARCASS_DEEP_B</Clip>
+          <ApproachRadius value="4.000000" />
+          <IsWaterGrab value="true" />
+        </Item>
+        <Item type="CTaskGrabCarcass__CGrabConfig">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionModelName">
+                <Entity>PrimaryEntity</Entity>
+                <ModelName>A_C_Alligator_01</ModelName>
+              </Item>
+              <Item type="CAIConditionSpecies">
+                <Ped>SecondaryEntity</Ped>
+                <SpeciesName>SPECIES_BIRD_HERON</SpeciesName>
+              </Item>
+            </Conditions>
+          </Condition>
+          <MinDepth value="2.500000" />
+          <MaxDepth value="-1.000000" />
+          <ClipSet>amb_creatures_reptile@alligator_drag_carcass_deep</ClipSet>
+          <Clip>DRAG_CARCASS_DEEP_C</Clip>
+          <ApproachRadius value="4.000000" />
+          <IsWaterGrab value="true" />
+        </Item>
+        <Item type="CTaskGrabCarcass__CGrabConfig">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionModelName">
+                <Entity>PrimaryEntity</Entity>
+                <ModelName>A_C_Alligator_01</ModelName>
+              </Item>
+              <Item type="CAIConditionSpecies">
+                <Ped>SecondaryEntity</Ped>
+                <SpeciesName>SPECIES_BIRD_HERON</SpeciesName>
+              </Item>
+            </Conditions>
+          </Condition>
+          <MinDepth value="0.000000" />
+          <MaxDepth value="0.250000" />
+          <ClipSet>amb_creatures_reptile@alligator_drag_carcass_shallow</ClipSet>
+          <Clip>DRAG_CARCASS_SHALLOW_A</Clip>
+          <ApproachRadius value="5.500000" />
+          <IsWaterGrab value="false" />
+        </Item>
+        <Item type="CTaskGrabCarcass__CGrabConfig">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionModelName">
+                <Entity>PrimaryEntity</Entity>
+                <ModelName>A_C_Alligator_01</ModelName>
+              </Item>
+              <Item type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Item>
+            </Conditions>
+          </Condition>
+          <MinDepth value="0.250000" />
+          <MaxDepth value="1.100000" />
+          <ClipSet>amb_creatures_reptile@alligator_drag_carcass_deep</ClipSet>
+          <Clip>DRAG_CARCASS_DEEP_A</Clip>
+          <ApproachRadius value="3.000000" />
+          <IsWaterGrab value="true" />
+        </Item>
+        <Item type="CTaskGrabCarcass__CGrabConfig">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionModelName">
+                <Entity>PrimaryEntity</Entity>
+                <ModelName>A_C_Alligator_01</ModelName>
+              </Item>
+              <Item type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Item>
+            </Conditions>
+          </Condition>
+          <MinDepth value="1.100000" />
+          <MaxDepth value="2.500000" />
+          <ClipSet>amb_creatures_reptile@alligator_drag_carcass_deep</ClipSet>
+          <Clip>DRAG_CARCASS_DEEP_B</Clip>
+          <ApproachRadius value="1.750000" />
+          <IsWaterGrab value="true" />
+        </Item>
+        <Item type="CTaskGrabCarcass__CGrabConfig">
+          <Condition type="CAIConditionAnd">
+            <Conditions>
+              <Item type="CAIConditionModelName">
+                <Entity>PrimaryEntity</Entity>
+                <ModelName>A_C_Alligator_01</ModelName>
+              </Item>
+              <Item type="CAIConditionIsHuman">
+                <Ped>SecondaryEntity</Ped>
+              </Item>
+            </Conditions>
+          </Condition>
+          <MinDepth value="2.500000" />
+          <MaxDepth value="-1.000000" />
+          <ClipSet>amb_creatures_reptile@alligator_drag_carcass_deep</ClipSet>
+          <Clip>DRAG_CARCASS_DEEP_C</Clip>
+          <ApproachRadius value="1.750000" />
+          <IsWaterGrab value="true" />
+        </Item>
+      </GrabConfigs>
+    </Item>
+    <Item type="CTaskAnimalBeingTamed__Tunables">
+      <Name>CTaskAnimalBeingTamed</Name>
+      <fMinTurnThreshold value="0.785398" />
+      <fMaxTurnThreshold value="1.570796" />
+      <fHeadingThreshold value="2.000000" />
+      <fRunningStartDistance value="22.000000" />
+      <fTamingEndDistance value="50.000000" />
+      <uExtraTamingAttemptsMax value="2" />
+      <fAgitaitionRate value="0.015000" />
+      <fAgitationToRemoveWhenCalmed value="0.900000" />
+      <fAgitationRemovalRateSec value="0.150000" />
+      <fMinAgitation value="0.210000" />
+      <fRetreatStopAgitationThreshold value="0.550000" />
+      <fAgitationVeryHighThreshold value="0.800000" />
+      <fAgitationCalmedThreshold value="0.400000" />
+      <fRumbleDistance value="10.000000" />
+      <fIntenseRumbleDistance value="3.000000" />
+      <uNotLockedOnRetreatTime value="2000" />
+      <fReatreatFromRunningTargetThreshold value="14.000000" />
+      <fRetreatFromRunningMedianFleeRange value="12.000000" />
+      <fKickAgitationThreshold value="0.400000" />
+      <fKickDistanceThreshold value="1.700000" />
+      <fRetreatFromKickMedianFleeRange value="8.000000" />
+      <uMinTimeBetweenKicks value="5000" />
+      <fSpookedMinTameRadius value="4.500000" />
+      <fSpookedAgitationThreshold value="0.950000" />
+      <fSpookedDistanceStart value="15.000000" />
+      <fSpookedDistanceSubtractMax value="5.000000" />
+      <fSpookedAgitationMultiplier value="25.000000" />
+      <fSpookedBufferAgitationMultiplier value="3.000000" />
+      <uSpookedInitialReactionTime value="1500" />
+      <fSpookedInitialReactionStrengthMultiplier value="0.200000" />
+      <uSpookedIntenseReactionTime value="1500" />
+      <fSpookedIntenseReactionStrengthMultiplier value="0.300000" />
+      <uSpookedCoolOffReactionTime value="1500" />
+      <fSpookedCoolOffReactionStrengthMultiplier value="0.000000" />
+      <fMountableAgitationLimit value="0.400000" />
+      <uPlayerStumbleDelay value="300" />
+      <fMountableRearUpDistance value="2.700000" />
+      <fMountableAgitationStart value="0.200000" />
+	  <uMountableReactionTime value="1500"/>
+    </Item>
+  </Tunables>
+</CTuningFile>

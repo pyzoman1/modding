@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CAmbientBirdSpawn__Tunables">
+      <Name>CAmbientBirdSpawn</Name>
+      <fMaxDistanceForHeavyMovementSignal value="30.000000" />
+      <fMaxDistanceForGunfireSignal value="40.000000" />
+      <fMinDistanceForBrushSpawn value="0.000000" />
+      <fMaxDistanceForBrushSpawn value="40.000000" />
+      <fMinDistanceForTreeSpawn value="0.000000" />
+      <fMaxDistanceForTreeSpawn value="70.000000" />
+      <fHeightPercentForTreeSpawn value="0.700000" />
+      <fRadiusFactor value="0.500000" />
+      <fMinRadiusForSpawningTree value="1.000000" />
+      <fMinRadiusForSpawningBrush value="1.500000" />
+      <fFailedAttemptDelay value="1.000000" />
+      <fGunshotSpawnDelayMin value="10.000000" />
+      <fGunshotSpawnDelayMax value="90.000000" />
+    </Item>
+  </Tunables>
+</CTuningFile>

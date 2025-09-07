@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CBaitingInfo>
+  <Baits>
+	<Item type="CBaitData" key="BAIT_HERBIVORE">
+	  <AttractionDistance value="250.000000" />
+      <EffectiveTimeMs value="150000.000000" />
+	  <TimeToWaitBeforeDispatch value="1000.000000" />
+	  <MinSpawnDistanceFromPlayer value="15.000000" />
+      <BaitCapacity value="4" />
+	  <AttractedModels>
+		<ModelSet>ANIMALS_BAIT_HERBIVORES</ModelSet>
+	  </AttractedModels>
+	</Item>
+	<Item type="CBaitData" key="BAIT_HERBIVORE_POTENT">
+	  <AttractionDistance value="475.000000" />
+      <EffectiveTimeMs value="270000.000000" />
+	  <TimeToWaitBeforeDispatch value="500.000000" />
+	  <MinSpawnDistanceFromPlayer value="15.000000" />
+      <BaitCapacity value="4" />
+	  <AttractedModels>
+		<ModelSet>ANIMALS_BAIT_HERBIVORES_POTENT</ModelSet>
+	  </AttractedModels>
+	</Item>
+	<Item type="CBaitData" key="BAIT_PREDATOR">
+	  <AttractionDistance value="250.000000" />
+      <EffectiveTimeMs value="150000.000000" />
+	  <TimeToWaitBeforeDispatch value="1000.000000" />
+	  <MinSpawnDistanceFromPlayer value="15.000000" />
+      <BaitCapacity value="4" />
+	  <AttractedModels>
+		<ModelSet>ANIMALS_BAIT_PREDATORS</ModelSet>
+	  </AttractedModels>
+	</Item>
+	<Item type="CBaitData" key="BAIT_PREDATOR_POTENT">
+	  <AttractionDistance value="475.000000" />
+      <EffectiveTimeMs value="270000.000000" />
+	  <TimeToWaitBeforeDispatch value="500.000000" />
+	  <MinSpawnDistanceFromPlayer value="15.000000" />
+      <BaitCapacity value="4" />
+	  <AttractedModels>
+		<ModelSet>ANIMALS_BAIT_PREDATORS_POTENT</ModelSet>
+	  </AttractedModels>
+	</Item>
+	<Item type="CBaitData" key="BAIT_BEAR">
+	  <AttractedModels>
+		<ModelSet>ANIMALS_BAIT_BEARS</ModelSet>
+	  </AttractedModels>
+	</Item>
+	<Item type="CBaitData" key="BAIT_PREDATOR_SPECIAL">
+	  <AttractionDistance value="250.000000" />
+      <EffectiveTimeMs value="150000.000000" />
+	  <TimeToWaitBeforeDispatch value="800.000000" />
+	  <MinSpawnDistanceFromPlayer value="15.000000" />
+      <BaitCapacity value="4" />
+	  <AttractedModels>
+		<ModelSet>ANIMALS_BAIT_PREDATORS</ModelSet>
+	  </AttractedModels>
+	  <OnlySpawnIfNotEnoughMissionPedsInArea value="true" />
+	</Item>
+	<Item type="CBaitData" key="BAIT_PREDATOR_POTENT_SPECIAL">
+	  <AttractionDistance value="475.000000" />
+      <EffectiveTimeMs value="270000.000000" />
+	  <TimeToWaitBeforeDispatch value="7000.000000" />
+	  <MinSpawnDistanceFromPlayer value="15.000000" />
+      <BaitCapacity value="4" />
+	  <AttractedModels>
+		<ModelSet>ANIMALS_BAIT_PREDATORS_POTENT</ModelSet>
+	  </AttractedModels>
+	  <OnlySpawnIfNotEnoughMissionPedsInArea value="true" />
+	</Item>
+  </Baits>
+</CBaitingInfo>

@@ -1,0 +1,45 @@
+<EasyInstall>
+	<Name>Improved Wildlife</Name>
+	<Author>Innx</Author>
+	<Version>0.3</Version>
+	<Link></Link>
+	<Metadata>
+	</Metadata>
+
+	<Resources>
+		<Resource>
+			<FileReplacement>
+				<GamePath>update:/x64/data/tune/wildlifemanager.ymt</GamePath>
+				<FilePath>wildlifemanager.ymt</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>update:/common/data/ai/baitinfo.meta</GamePath>
+				<FilePath>baitinfo.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>common:/data/tune/scavengerdispatchmanagertunables.meta</GamePath>
+				<FilePath>scavengerdispatchmanagertunables.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>common:/data/tune/flockspawnmanagertunables.meta</GamePath>
+				<FilePath>flockspawnmanagertunables.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>common:/data/tune/ambientbirdspawntunables.meta</GamePath>
+				<FilePath>ambientbirdspawntunables.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>common:/data/tune/popzonespawnermanager.meta</GamePath>
+				<FilePath>popzonespawnermanager.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>update:/common/data/tune/animaltasks.meta</GamePath>
+				<FilePath>animaltasks.meta</FilePath>
+			</FileReplacement>
+			<FileReplacement>
+				<GamePath>common:/data/ai/animalunalertedbehaviours.meta</GamePath>
+				<FilePath>animalunalertedbehaviours.meta</FilePath>
+			</FileReplacement>
+		</Resource>
+	</Resources>
+</EasyInstall>

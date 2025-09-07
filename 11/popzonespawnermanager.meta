@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CPopZoneSpawnerManager__Tunables">
+      <Name>CPopZoneSpawnerManager</Name>
+      <PopZoneNearDistance value="80.000000" />
+      <WeigthPriorityLow value="1.000000" />
+      <WeigthPriorityMedium value="2.000000" />
+      <WeigthPriorityHigh value="3.000000" />
+      <WeigthPriorityVeryHigh value="4.000000" />
+      <Flocks100m2DensityVeryLow value="0.092500" />
+      <Flocks100m2DensityLow value="1.500000" />
+      <Flocks100m2DensityMedium value="2.500000" />
+      <Flocks100m2DensityHigh value="3.500000" />
+      <Flocks100m2DensityVeryHigh value="5.900000" /> 
+      <NoSpawnFlags>PFF_WildMediumAndLargeAnimals</NoSpawnFlags>
+      <NoSpawnAfterNumKills value="20" />
+      <NoSpawnAfterNumSeconds value="240.00000" />
+      <NoSpawnHowLongSeconds value="1.00000" />
+      <NoSpawnAfterCombatFlags>PFF_DangerousAnimals</NoSpawnAfterCombatFlags>
+      <NoSpawnAfterCombatSeconds value="350.00000" />
+      <DefaultSpawnRanges>DEFAULT_SPAWN_RANGES</DefaultSpawnRanges>
+  </Item>
+  </Tunables>
+</CTuningFile>

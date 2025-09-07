@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CTuningFile>
+  <Tunables>
+    <Item type="0xCFBF9292">
+      <Name>0x9977B9DF</Name>
+      <UNK_MEMBER_0x3C80B15D value="1.00000000"/>
+      <UNK_MEMBER_0xCBDEDB07 value="3.50000000"/>
+      <UNK_MEMBER_0x1BB2DD83 value="0.00000000"/>
+      <UNK_MEMBER_0x3A332781 value="0.50000000"/>
+      <UNK_MEMBER_0x214D49D9 value="0.50000000"/>
+      <UNK_MEMBER_0x93769783 value="2.00000000"/>
+      <UNK_MEMBER_0x8C4A404F value="1.00000000"/>
+      <UNK_MEMBER_0x2FF3AEE1 value="1.00000000"/>
+      <UNK_MEMBER_0x1FA7E543 value="1.00000000"/>
+      <UNK_MEMBER_0x2FF3F1C5 value="1.00000000"/>
+      <UNK_MEMBER_0xFCA9C187 value="1.00000000"/>
+      <UNK_MEMBER_0x521EB616 value="1.00000000"/>
+      <UNK_MEMBER_0xDDA54B4A value="1.00000000"/>
+      <UNK_MEMBER_0x77196275 value="1.00000000"/>
+      <UNK_MEMBER_0xBA1450B0 value="15.00000000"/>
+      <UNK_MEMBER_0x11D80EF5 value="1.50000000"/>
+      <UNK_MEMBER_0x9F024346 value="1.00000000"/>
+      <UNK_MEMBER_0x028081DF value="10.00000000"/>
+      <UNK_MEMBER_0xBDA660EC>0xD83DC047</UNK_MEMBER_0xBDA660EC>
+      <UNK_MEMBER_0xF113DBED value="30.00000000"/>
+      <UNK_MEMBER_0xB91A04C3 value="30.00000000"/>
+      <UNK_MEMBER_0x08AACDC8 value="0.30000000"/>
+      <UNK_MEMBER_0xAC690667 value="0.00000000"/>
+      <UNK_MEMBER_0x7E9E6140 value="0.20000000"/>
+      <UNK_MEMBER_0xBECE99CD value="0.10000000"/>
+      <UNK_MEMBER_0x7187DEB8 value="0.20000000"/>
+      <UNK_MEMBER_0x9080366A value="0.30000000"/>
+      <UNK_MEMBER_0xC50D2797 value="0.20000000"/>
+      <UNK_MEMBER_0x47146822 value="0.00000000"/>
+      <UNK_MEMBER_0x3953D597 value="0.00000000"/>
+      <UNK_MEMBER_0x80496ED9 value="0.00000000"/>
+      <UNK_MEMBER_0x5358549A value="0.10000000"/>
+      <UNK_MEMBER_0x9FECC1C2 value="0.10000000"/>
+      <UNK_MEMBER_0x431DADE7 value="0.40000000"/>
+      <UNK_MEMBER_0x2FDA41E2 value="0.40000000"/>
+      <UNK_MEMBER_0x53EE8D4A value="0.00000000"/>
+      <UNK_MEMBER_0xA275B9AB value="0.00000000"/>
+      <UNK_MEMBER_0xAD5FDC7A value="0.00000000"/>
+      <UNK_MEMBER_0x1D07605B value="0.00000000"/>
+      <UNK_MEMBER_0xE020B6EF value="0.05000000"/>
+      <UNK_MEMBER_0x29B81270 value="0.30000000"/>
+      <UNK_MEMBER_0x04918867 value="0.55000000"/>
+      <UNK_MEMBER_0x910C0CB9 value="0.10000000"/>
+      <UNK_MEMBER_0x768C9CE5 value="0.00000000"/>
+      <UNK_MEMBER_0x70E44A68 value="0.00000000"/>
+      <UNK_MEMBER_0x7A01C8F6 value="0.00000000"/>
+      <UNK_MEMBER_0x8CAF1989 value="0.10000000"/>
+      <UNK_MEMBER_0x96947D3C value="0.15000000"/>
+      <UNK_MEMBER_0xFCBDDC73 value="0.45000000"/>
+      <UNK_MEMBER_0x8811C189 value="0.30000000"/>
+    </Item>
+    <Item type="0x8F5A468D">
+      <Name>0x98D9211C</Name>
+      <UNK_MEMBER_0x0A192EE8>a_c_alligator_01</UNK_MEMBER_0x0A192EE8>
+      <UNK_MEMBER_0x85F3FBEF>0xE77CE88F</UNK_MEMBER_0x85F3FBEF>
+      <UNK_MEMBER_0xC9AB9034 value="10.00000000"/>
+      <UNK_MEMBER_0xD92583C4 value="20.00000000"/>
+      <UNK_MEMBER_0x10EEEB31 value="1.50000000"/>
+      <Volumes>
+        <Item>
+          <Min x="-312.00000000" y="-74.00000000" z="-10.00000000"/>
+          <Max x="-63.00000000" y="140.00000000" z="5.00000000"/>
+        </Item>
+        <Item>
+          <Min x="1862.80000000" y="-2103.40000000" z="30.00000000"/>
+          <Max x="2826.40000000" y="-1480.70000000" z="50.00000000"/>
+        </Item>
+        <Item>
+          <Min x="1862.30000000" y="-1479.80000000" z="30.00000000"/>
+          <Max x="2479.50000000" y="-372.10000000" z="50.00000000"/>
+        </Item>
+        <Item>
+          <Min x="1529.60000000" y="-1253.10000000" z="30.00000000"/>
+          <Max x="1861.30000000" y="-645.20000000" z="50.00000000"/>
+        </Item>
+      </Volumes>
+    </Item>
+    <Item type="CWildlifeManager__Tunables">
+      <Name>0xECDF7966</Name>
+      <BirdSpawnXYRangeMin value="1.00000000"/>
+      <BirdSpawnXYRangeMax value="350.00000000"/>
+      <IncreasedAerialSpawningFactor value="15.00000000"/>
+      <MinDistanceToSearchForGroundWildlifePoints value="5.00000000"/>
+      <MaxDistanceToSearchForGroundWildlifePoints value="20.00000000"/>
+      <GroundMaterialProbeDepth value="20.00000000"/>
+      <GroundMaterialProbeOffset value="10.00000000"/>
+      <GroundMaterialSpawnCoordNormalZTolerance value="0.80000000"/>
+      <IncreasedGroundWildlifeSpawningFactor value="112.00000000"/>
+      <MaxDistanceToSearchForAquaticPoints value="10.00000000"/>
+      <TimeBetweenWaterHeightMapChecks value="0.01000000"/>
+      <WaterProbeDepth value="5.00000000"/>
+      <WaterProbeOffset value="2.00000000"/>
+      <UNK_MEMBER_0x4DFFEB6A value="0.25000000"/>
+      <IncreasedAquaticSpawningFactor value="90.00000000"/>
+      <UNK_MEMBER_0xBE5356D8 value="0.40000000"/>
+      <UNK_MEMBER_0x55EAEB7B value="5.00000000"/>
+      <SharkModelName>a_c_sharktiger</SharkModelName>
+      <DeepWaterThreshold value="35.00000000"/>
+      <PlayerSwimTimeThreshold value="60.00000000"/>
+      <MinTimeBetweenSharkDispatches value="60000"/>
+      <SharkAddRangeInViewMin value="20.00000000"/>
+      <SharkAddRangeInViewMinFar value="35.00000000"/>
+      <SharkSpawnProbability value="0.25000000"/>
+      <UNK_MEMBER_0x1A06244A value="50.00000000"/>
+      <UNK_MEMBER_0xA06887F6 value="20.00000000"/>
+      <UNK_MEMBER_0xE5307A34 value="50.00000000"/>
+      <UNK_MEMBER_0xD239BF4A value="false"/>
+      <UNK_MEMBER_0xB2E77CBF value="false"/>
+      <UNK_MEMBER_0xBA9A09BB value="false"/>
+      <UNK_MEMBER_0x3D045C76 value="false"/>
+      <AmbientScannerParameters>
+        <Item>
+          <ScannerSearch>0xA6374BAD</ScannerSearch>
+          <Negated value="false"/>
+          <Radius value="0"/>
+        </Item>
+        <Item>
+          <ScannerSearch>0x3F43168A</ScannerSearch>
+          <Negated value="false"/>
+          <Radius value="7"/>
+        </Item>
+      </AmbientScannerParameters>
+      <UNK_MEMBER_0x2CBC1A81>
+        <Item>
+          <ScannerSearch>0xA6374BAD</ScannerSearch>
+          <Negated value="false"/>
+          <Radius value="0"/>
+        </Item>
+        <Item>
+          <ScannerSearch>0x3F43168A</ScannerSearch>
+          <Negated value="false"/>
+          <Radius value="7"/>
+        </Item>
+        <Item>
+          <ScannerSearch>0xEE8F6AF6</ScannerSearch>
+          <Negated value="false"/>
+          <Radius value="1"/>
+        </Item>
+      </UNK_MEMBER_0x2CBC1A81>
+      <UNK_MEMBER_0x0EE5ED65 value="true"/>
+    </Item>
+  </Tunables>
+</CTuningFile>
